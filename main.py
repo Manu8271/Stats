@@ -40,7 +40,7 @@ average_sentiment = text_data[[
 print("\nAverage Sentiment Scores:")
 print(average_sentiment)
 
-# Save the results to a new CSV file
+# Save the results to a new CSV file.
 output_file = '/Users/manuyadav/Downloads/sentiment_analysis_results.csv'
 text_data.to_csv(output_file, index=False)
 print(f"\nSentiment analysis results saved to {output_file}")
